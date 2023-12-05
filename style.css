@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden !important;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+} */
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+@media (max-width: 600px) {
+    .container{
+        box-sizing: border-box;
+        width: 100%;
+    }
+} 
+h3,h4,h6{
+    padding: 15px;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container h1{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container1{
+    width: 60%;
+}
+.container2{
+    margin-top: 100px;
+}
+.container4{
+    left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.container-item{
+    box-sizing: border-box;
+    display: flex;
+    margin: 15px;
+    width: 40%;
+    height: 150px;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.two-item{
+    /* position: relative;
+    left: 30px; */
+    display: flex;
+    /* margin: 15px; */
+    padding: 15px;
+    justify-content: space-between;
+}
+.two-item span{
+    text-decoration:underline;
+}
+input[type=email]{
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    border: 1px solid black;
+}
+input[type=radio]{
+
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.yellow_container_btn {
+    position: absolute;
+    display: flex;
+    padding: 15px 29px;
+    background-color: black;
+    color: white;
+    border: transparent;
+    left: 120px;
+    margin-top: 20px;
+    margin-bottom: 30px;  
+}
+ .yellow_container_btn:hover{
+     cursor: pointer;
+     color:lightgray;
+ }
+.btn-back {
+    width: 130px;
+    height: 43px;
+    border: 1px solid black;
+    position: absolute;
+    left: 120px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+@media (max-width: 600px) {
+    .two-item{
+        flex-direction: column;
+        padding: 5px;
+    }
+  }
+@media (max-width: 600px) {
+    .container-item{
+        box-sizing: border-box;
+        width: 100%; 
+    }
+} 
+@media (max-width: 300px) {
+    .container-item{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} 
+@media (max-width: 600px) {
+    .container1{
+        width: 90%; 
+    }
+} 
+@media (max-width: 600px) {
+    .container1 p{
+        width: 70%;
+    }
+  }
+
+
+
+    
